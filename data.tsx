@@ -20,4 +20,3 @@ const ticketData = [
   },
 ];
 
-export default ticketData;
