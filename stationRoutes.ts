@@ -1,4 +1,23 @@
 [
+    {
+    id: 4,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "नवाडे रोड",
+      stationNameEnglish: "NAVADE ROAD",
+      stationNameMarathi: "नवाडे रोड",
+    },
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "पनवेल",
+      stationNameEnglish: "PANVEL",
+      stationNameMarathi: "पनवेल",
+    },
+    price: 5,
+    via: "KLMC",
+    distance: "8 km",
+    travelTime: 25,
+  },
   {
     id: 1,
     source: {
@@ -37,25 +56,7 @@
     distance: "18 km",
     travelTime: 40,
   },
-    {
-    id: 4,
-    source: {
-      stationCode: "S",
-      stationNameHindi: "नवाडे रोड",
-      stationNameEnglish: "NAVADE ROAD",
-      stationNameMarathi: "नवाडे रोड",
-    },
-    destination: {
-      stationCode: "D",
-      stationNameHindi: "पनवेल",
-      stationNameEnglish: "PANVEL",
-      stationNameMarathi: "पनवेल",
-    },
-    price: 5,
-    via: "KLMC",
-    distance: "8 km",
-    travelTime: 25,
-  },
+  
   {
     id: 3,
     source: {
