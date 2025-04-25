@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Quote Request Modal</title>
- <style>
+<style>
   * { box-sizing: border-box; }
 
   body {
@@ -23,18 +17,22 @@
     height: 100vh;
     background-color: rgba(0,0,0,0.6);
     z-index: 9999;
+    padding: 20px;
   }
 
   .quote-modal-content {
     background: #fff;
     width: 100%;
     max-width: 600px;
-    margin: 0 10px;
+    height: 60vh; /* Fixed height */
+    overflow-y: auto;
     border-radius: 12px;
     box-shadow: 0 0 25px rgba(0,0,0,0.2);
     position: relative;
     animation: slideIn 0.4s ease;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
   }
 
   .quote-close {
@@ -47,26 +45,32 @@
   }
 
   .quote-modal-content h3 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
     color: #0b6bc5;
   }
 
   .quote-logo-text {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #0b6bc5;
   }
 
-  form div { margin-bottom: 12px; }
+  form {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  form div { margin-bottom: 10px; }
 
   input, textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 6px;
+    font-size: 0.95rem;
   }
 
   button {
@@ -99,8 +103,8 @@
 
   .status-message {
     text-align: center;
-    margin-top: 15px;
-    font-size: 0.95rem;
+    margin-top: 10px;
+    font-size: 0.9rem;
     color: #0b6bc5;
   }
 
@@ -108,107 +112,10 @@
     from { transform: translateY(-50px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
   }
-</style>
 
-</head>
-<body>
-
-  <div id="quoteModal" class="quote-modal-wrapper">
-    <div class="quote-modal-content">
-     <h3>Request a Quote</h3>
-      <div class="quote-logo-text">Acier Steel Pvt. Ltd.</div>
-      <form id="quoteForm">
-        <div>
-          <label>Name <span style="color: red;">*</span></label>
-          <input type="text" id="name" name="name" required />
-        </div>
-        <div>
-          <label>Mobile <span style="color: red;">*</span></label>
-          <input type="tel" id="mobile" name="mobile" required />
-        </div>
-        <div>
-          <label>Email</label>
-          <input type="email" id="email" name="email" />
-        </div>
-        <div>
-          <label>Location</label>
-          <input type="text" id="location" name="location" placeholder="Enter your location" />
-        </div>
-        <div>
-          <label>Remarks</label>
-          <textarea id="remarks" name="remarks" rows="3"></textarea>
-        </div>
-        <button type="button" id="submitButton">Submit</button>
-        <div id="statusMessage" class="status-message"></div>
-      </form>
-    </div>
-  </div>
-
-  <iframe name="hidden_iframe" style="display:none;"></iframe>
-
-  <script>
-    const quoteModal = document.getElementById('quoteModal');
-    window.onload = () => { quoteModal.style.display = 'flex'; };
-
-    document.getElementById('submitButton').addEventListener('click', handleSubmit);
-
-    function handleSubmit(e) {
-      e.preventDefault();
-      const form = document.getElementById('quoteForm');
-      const submitBtn = document.getElementById('submitButton');
-      const status = document.getElementById('statusMessage');
-
-      const nameVal = form.name.value.trim();
-      const mobileVal = form.mobile.value.trim();
-      const emailVal = form.email.value.trim();
-
-      if (!/^[A-Za-z\s]+$/.test(nameVal)) {
-        status.textContent = 'Name must contain only letters and spaces'; return;
-      }
-      if (!/^\d{10}$/.test(mobileVal)) {
-        status.textContent = 'Enter a valid 10-digit mobile number'; return;
-      }
-      if (emailVal && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailVal)) {
-        status.textContent = 'Enter a valid email address'; return;
-      }
-
-      submitBtn.disabled = true;
-      submitBtn.classList.add('loading');
-      submitBtn.textContent = 'Submitting...';
-      status.textContent = '';
-
-      const payload = {
-        'entry.1884265043': nameVal,
-        'entry.287089160': mobileVal,
-        'entry.1394478409': emailVal || 'Not_available@xyz.com',
-        'entry.1490295953': form.location.value.trim() || 'Not available',
-        'entry.511498032': form.remarks.value.trim() || 'Not available'
-      };
-
-      const postForm = document.createElement('form');
-      postForm.method = 'POST';
-      postForm.action = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLScHPcKU4zcHuIN6fcmO-By45SgqZJ6uGJn_z_Ni4LrdofI3mg1/formResponse';
-      postForm.target = 'hidden_iframe';
-
-      Object.entries(payload).forEach(([k,v]) => {
-        const inp = document.createElement('input');
-        inp.type = 'hidden'; inp.name = k; inp.value = v;
-        postForm.appendChild(inp);
-      });
-
-      document.body.appendChild(postForm);
-      postForm.submit();
-
-      setTimeout(() => {
-        document.body.removeChild(postForm);
-        submitBtn.disabled = false;
-        submitBtn.classList.remove('loading');
-        submitBtn.textContent = 'Submit';
-        status.textContent = 'Form submitted successfully!';
-        form.reset();
-      }, 1000);
+  @media (max-height: 500px) {
+    .quote-modal-content {
+      height: 80vh;
     }
-  </script>
-
-</body>
-</html>
+  }
+</style>
