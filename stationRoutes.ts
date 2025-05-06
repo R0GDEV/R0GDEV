@@ -5,7 +5,7 @@
       stationCode: "S",
       stationNameHindi: "नवाडे रोड",
       stationNameEnglish: "NAVADE ROAD",
-      stationNameMarathi: "नवाडे रोड",
+      stationNameMarathi: "नावडे रोड",
     },
     destination: {
       stationCode: "D",
@@ -133,4 +133,43 @@
     distance: "68 km",
     travelTime: 50,
   },
+{
+  id:8,
+  source: {
+    stationCode: "S",
+    stationNameHindi: "दिवा",
+    stationNameEnglish: "DIVA",
+    stationNameMarathi: "दिवा",
+  },
+  destination: {
+    stationCode: "D",
+    stationNameHindi: "पनवेल",
+    stationNameEnglish: "PANVEL",
+    stationNameMarathi: "पनवेल",
+  },
+  price: 10,
+  via: "TPND",
+  distance: "17 km",
+  travelTime: 40,
+},
+{
+  id: 9,
+  source: {
+    stationCode: "S",
+    stationNameHindi: "नवाडे रोड",
+    stationNameEnglish: "NAVADE ROAD",
+    stationNameMarathi: "नावडे रोड",
+  },
+  destination: {
+    stationCode: "D",
+    stationNameHindi: "छ. शिवाजी महा. ट.",
+    stationNameEnglish: "C SHIVAJI MAH T",
+    stationNameMarathi: "छ. शिवाजी महा ट",
+  },
+  price: 20,
+  via: "PNVL-SNCR-CLA-VDLR",
+  distance: "43 km",
+  travelTime: 90,
+},
+
 ];
