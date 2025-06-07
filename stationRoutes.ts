@@ -170,6 +170,24 @@
   via: "PNVL-SNCR-CLA-VDLR",
   distance: "43 km",
   travelTime: 90,
-},
+},  {
+    id: 10,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "पनवेल",
+      stationNameEnglish: "PANVEL",
+      stationNameMarathi: "पनवेल",
+    },
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "कोपर",
+      stationNameEnglish: "KOPER",
+      stationNameMarathi: "कॉपर",
+    },
+    price: 5,
+    via: "------",
+    distance: "31 km",
+    travelTime: 25,
+  },
 
 ];
