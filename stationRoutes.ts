@@ -184,10 +184,29 @@
       stationNameEnglish: "KOPER",
       stationNameMarathi: "कॉपर",
     },
-    price: 5,
+    price: 15,
     via: "------",
     distance: "31 km",
     travelTime: 25,
+  },
+{
+    id: 11,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "दिवा",
+      stationNameEnglish: "DIVA",
+      stationNameMarathi: "दिवा",
+    },
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "टिटवाला",
+      stationNameEnglish: "TITWALA",
+      stationNameMarathi: "टिटवाळा",
+    },
+    price: 10,
+    via: "CLA",
+    distance: "22 km",
+    travelTime: 60,
   },
 
 ];
