@@ -208,5 +208,24 @@
     distance: "22 km",
     travelTime: 60,
   },
+{
+    id: 12,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "अंधेरी",
+      stationNameEnglish: "ANDHERI",
+      stationNameMarathi: "अंधेरी",
+    },
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "वसई रोड",
+      stationNameEnglish: "VASAI ROAD",
+      stationNameMarathi: "वसई रोड",
+    },
+    price: 10,
+    via: "---",
+    distance: "30 km",
+    travelTime: 60,
+  },
 
 ];
