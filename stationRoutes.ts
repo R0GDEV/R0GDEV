@@ -227,5 +227,24 @@
     distance: "30 km",
     travelTime: 60,
   },
+    {
+    id: 13,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "वसई रोड",
+      stationNameEnglish: "VASAI ROAD",
+      stationNameMarathi: "वसई रोड",
+    },
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "पनवेल",
+      stationNameEnglish: "PANVEL",
+      stationNameMarathi: "पनवेल",
+    },
+    price: 20,
+    via: "BSR",
+    distance: "68 km",
+    travelTime: 25,
+  },
 
 ];
