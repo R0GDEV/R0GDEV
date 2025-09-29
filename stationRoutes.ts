@@ -13,7 +13,7 @@
       stationNameEnglish: "PANVEL",
       stationNameMarathi: "पनवेल",
     },
-    price: 5,
+    price:  { SECOND: 5, FIRST: 15 },
     via: "KLMC",
     distance: "8 km",
     travelTime: 25,
