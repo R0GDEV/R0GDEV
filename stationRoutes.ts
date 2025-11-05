@@ -267,24 +267,6 @@
     travelTime: 25,
   },
  
- {
-    id: 15,
-    source: {
-      stationCode: "S",
-      stationNameHindi: "दिवा",
-      stationNameEnglish: "DIVA",
-      stationNameMarathi: "दिवा",
-    },
-    destination: {
-      stationCode: "D",
-      stationNameHindi: "खोपोली",
-      stationNameEnglish: "KHOPOLI",
-      stationNameMarathi: "खोपोली",
-    },
-    price: { SECOND: 20 , FIRST: 115 },
-    via: "KYN",
-    distance: "72 km",
-    travelTime: 45,
-  },
+ 
 },
 ];
