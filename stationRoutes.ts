@@ -286,5 +286,5 @@
     distance: "72 km",
     travelTime: 45,
   },
-
+},
 ];
