@@ -247,25 +247,7 @@
     distance: "68 km",
     travelTime: 25,
   },
- {
-    id: 14,
-    source: {
-      stationCode: "S",
-      stationNameHindi: "पनवेल",
-      stationNameEnglish: "PANVEL",
-      stationNameMarathi: "पनवेल",
-    },
-    destination: {
-      stationCode: "D",
-      stationNameHindi: "कोपर",
-      stationNameEnglish: "KOPER",
-      stationNameMarathi: "कॉपर",
-    },
-    price: { SECOND: 15 , FIRST: 85 },
-    via: "KLMC-DIVA",
-    distance: "32 km",
-    travelTime: 25,
-  },
+ 
  
  
 
