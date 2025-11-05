@@ -266,7 +266,7 @@
     distance: "32 km",
     travelTime: 25,
   },
- },
+ 
  {
     id: 15,
     source: {
@@ -286,4 +286,5 @@
     distance: "72 km",
     travelTime: 45,
   },
+
 ];
