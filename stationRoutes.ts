@@ -219,9 +219,9 @@
     },
     destination: {
       stationCode: "D",
-      stationNameHindi: "टिटवाला",
-      stationNameEnglish: "TITWALA",
-      stationNameMarathi: "टिटवाळा",
+            stationNameHindi: "खोपोली",
+      stationNameEnglish: "KHOPOLI",
+      stationNameMarathi: "खोपोली",
     },
     price: { SECOND: 10 , FIRST: 60 },
     via: "KYN",
