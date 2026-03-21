@@ -23,7 +23,7 @@
     source: {
       stationCode: "S",
       stationNameHindi: "दिवा",
-      stationNameEnglish: "DIVA",
+      stationNameEnglish: "PANVEL",
       stationNameMarathi: "दिवा",
     },
     destination: {
@@ -32,9 +32,9 @@
       stationNameEnglish: "C SHIVAJI MAH T",
       stationNameMarathi: "छ. शिवाजी महा ट",
     },
-    price: { SECOND: 15 , FIRST: 90 },
-    via: "CLA",
-    distance: "43 km",
+    price: { SECOND: 315 , FIRST: 315 },
+    via: "1RT>>DIVA-TNA-CLA-DR",
+    distance: "69 km",
     travelTime: 60,
   },
   {
