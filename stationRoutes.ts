@@ -37,6 +37,25 @@
     distance: "69 km",
     travelTime: 60,
   },
+{
+    id: 20,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "नवाडे रोड",
+      stationNameEnglish: "PANVEL",
+      stationNameMarathi: "नावडे रोड",
+    },
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "पनवेल",
+      stationNameEnglish: "Thane",
+      stationNameMarathi: "पनवेल",
+    },
+    price:  { SECOND: 295, FIRST: 295 },
+    via: "1RT>>JNJ-TUH",
+    distance: "35 km",
+    travelTime: 90,
+  },
   {
     id: 2,
     source: {
