@@ -204,7 +204,7 @@
       stationNameEnglish: "KOPER",
       stationNameMarathi: "कॉपर",
     },
-    price: { SECOND: 15 , FIRST: 85 },
+    price: { SECOND: 215 , FIRST: 215 },
     via: "------",
     distance: "31 km",
     travelTime: 25,
