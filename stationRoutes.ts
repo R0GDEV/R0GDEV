@@ -1,317 +1,294 @@
 [
-  {
-    "id": 4,
-    "source": {
-      "stationNameEnglish": "NILAJE",
-      "stationNameHindi": "नवाडे रोड",
-      "stationNameMarathi": "नावडे रोड"
+    {
+    id: 4,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "नवाडे रोड",
+      stationNameEnglish: "NILAJE",
+      stationNameMarathi: "नावडे रोड",
     },
-    "destination": {
-      "stationNameEnglish": "C SHIVAJI MAH T",
-      "stationNameHindi": "छ. शिवाजी महा. ट.",
-      "stationNameMarathi": "छ. शिवाजी महा ट"
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "पनवेल",
+      stationNameEnglish: "C SHIVAJI MAH T",
+      stationNameMarathi: "पनवेल",
     },
-    "price": {
-      "monthly": { "SECOND": 385, "FIRST": 770 },
-      "journey": { "SECOND": 25, "FIRST": 115 },
-      "returnT": { "SECOND": 45, "FIRST": 210 }
-    },
-    "via": "1RT>>PNVL-CLA-VDLR-SNRD",
-    "distance": "70 km",
-    "travelTime": 90
+    price:  { SECOND: 385, FIRST: 385 },
+    via: "1RT>>PNVL-CLA-VDLR-SNRD",
+    distance: "70 km",
+    travelTime: 90,
   },
   {
-    "id": 1,
-    "source": {
-      "stationNameEnglish": "DIVA",
-      "stationNameHindi": "दिवा",
-      "stationNameMarathi": "दिवा"
+    id: 1,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "दिवा",
+      stationNameEnglish: "PANVEL",
+      stationNameMarathi: "दिवा",
     },
-    "destination": {
-      "stationNameEnglish": "C SHIVAJI MAH T",
-      "stationNameHindi": "छ. शिवाजी महा. ट.",
-      "stationNameMarathi": "छ. शिवाजी महा ट"
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "छ. शिवाजी महा. ट.",
+      stationNameEnglish: "C SHIVAJI MAH T",
+      stationNameMarathi: "छ. शिवाजी महा ट",
     },
-    "price": {
-      "monthly": { "SECOND": 315, "FIRST": 630 },
-      "journey": { "SECOND": 25, "FIRST": 115 },
-      "returnT": { "SECOND": 45, "FIRST": 210 }
+    price: { SECOND: 315 , FIRST: 315 },
+    via: "1RT>>DIVA-TNA-CLA-DR",
+    distance: "69 km",
+    travelTime: 60,
+  },
+{
+    id: 20,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "नवाडे रोड",
+      stationNameEnglish: "PANVEL",
+      stationNameMarathi: "नावडे रोड",
     },
-    "via": "1RT>>DIVA-TNA-CLA-DR",
-    "distance": "69 km",
-    "travelTime": 60
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "पनवेल",
+      stationNameEnglish: "Thane",
+      stationNameMarathi: "पनवेल",
+    },
+    price:  { SECOND: 295, FIRST: 295 },
+    via: "1RT>>JNJ-TUH",
+    distance: "35 km",
+    travelTime: 90,
   },
   {
-    "id": 20,
-    "source": {
-      "stationNameEnglish": "NAVADE ROAD",
-      "stationNameHindi": "नवाडे रोड",
-      "stationNameMarathi": "नावडे रोड"
+    id: 2,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "खारघर",
+      stationNameEnglish: "KHARGHAR",
+      stationNameMarathi: "खारघर",
     },
-    "destination": {
-      "stationNameEnglish": "PANVEL",
-      "stationNameHindi": "पनवेल",
-      "stationNameMarathi": "पनवेल"
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "राबाडा",
+      stationNameEnglish: "RABADA",
+      stationNameMarathi: "राबाडा",
     },
-    "price": {
-      "monthly": { "SECOND": 295, "FIRST": 590 },
-      "journey": { "SECOND": 20, "FIRST": 100 },
-      "returnT": { "SECOND": 40, "FIRST": 185 }
+    price: { SECOND: 10 , FIRST: 65 },
+    via: "JNJ-TUH",
+    distance: "18 km",
+    travelTime: 40,
+  },
+  
+  {
+    id: 3,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "दिवा",
+      stationNameEnglish: "DIVA",
+      stationNameMarathi: "दिवा",
     },
-    "via": "1RT>>JNJ-TUH",
-    "distance": "35 km",
-    "travelTime": 90
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "ठाणे",
+      stationNameEnglish: "THANE",
+      stationNameMarathi: "ठाणे",
+    },
+    price: { SECOND: 5 , FIRST: 25 },
+    via: "------",
+    distance: "10 km",
+    travelTime: 25,
   },
   {
-    "id": 2,
-    "source": {
-      "stationNameEnglish": "KHARGHAR",
-      "stationNameHindi": "खारघर",
-      "stationNameMarathi": "खारघर"
+    id: 5,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "पनवेल",
+      stationNameEnglish: "PANVEL",
+      stationNameMarathi: "पनवेल",
     },
-    "destination": {
-      "stationNameEnglish": "RABADA",
-      "stationNameHindi": "राबाडा",
-      "stationNameMarathi": "राबाडा"
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "ठाणे",
+      stationNameEnglish: "THANE",
+      stationNameMarathi: "ठाणे",
     },
-    "price": {
-      "monthly": { "SECOND": 100, "FIRST": 480 },
-      "journey": { "SECOND": 10, "FIRST": 65 },
-      "returnT": { "SECOND": 20, "FIRST": 110 }
-    },
-    "via": "JNJ-TUH",
-    "distance": "18 km",
-    "travelTime": 40
+    price: { SECOND: 15 , FIRST: 90 },
+    via: "JNJ-TUH",
+    distance: "27 km",
+    travelTime: 40,
   },
   {
-    "id": 3,
-    "source": {
-      "stationNameEnglish": "DIVA",
-      "stationNameHindi": "दिवा",
-      "stationNameMarathi": "दिवा"
+    id: 6,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "छ. शिवाजी महा. ट.",
+      stationNameEnglish: "C SHIVAJI MAH T",
+      stationNameMarathi: "छ. शिवाजी महा ट",
     },
-    "destination": {
-      "stationNameEnglish": "THANE",
-      "stationNameHindi": "ठाणे",
-      "stationNameMarathi": "ठाणे"
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "पनवेल",
+      stationNameEnglish: "PANVEL",
+      stationNameMarathi: "पनवेल",
     },
-    "price": {
-      "monthly": { "SECOND": 100, "FIRST": 325 },
-      "journey": { "SECOND": 5, "FIRST": 25 },
-      "returnT": { "SECOND": 10, "FIRST": 50 }
-    },
-    "via": "------",
-    "distance": "10 km",
-    "travelTime": 25
+    price: { SECOND: 20 , FIRST: 100 },
+    via: "CLA",
+    distance: "49 km",
+    travelTime: 50,
   },
   {
-    "id": 5,
-    "source": {
-      "stationNameEnglish": "PANVEL",
-      "stationNameHindi": "पनवेल",
-      "stationNameMarathi": "पनवेल"
+    id: 7,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "छ. शिवाजी महा. ट.",
+      stationNameEnglish: "C SHIVAJI MAH T",
+      stationNameMarathi: "छ. शिवाजी महा ट",
     },
-    "destination": {
-      "stationNameEnglish": "THANE",
-      "stationNameHindi": "ठाणे",
-      "stationNameMarathi": "ठाणे"
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "पनवेल",
+      stationNameEnglish: "PANVEL",
+      stationNameMarathi: "पनवेल",
     },
-    "price": {
-      "monthly": { "SECOND": 185, "FIRST": 575 },
-      "journey": { "SECOND": 15, "FIRST": 90 },
-      "returnT": { "SECOND": 30, "FIRST": 165 }
-    },
-    "via": "JNJ-TUH",
-    "distance": "27 km",
-    "travelTime": 40
+    price: { SECOND: 25 , FIRST: 115 },
+    via: "TNA-TUH-JNJ",
+    distance: "68 km",
+    travelTime: 50,
   },
-  {
-    "id": 6,
-    "source": {
-      "stationNameEnglish": "C SHIVAJI MAH T",
-      "stationNameHindi": "छ. शिवाजी महा. ट.",
-      "stationNameMarathi": "छ. शिवाजी महा ट"
-    },
-    "destination": {
-      "stationNameEnglish": "PANVEL",
-      "stationNameHindi": "पनवेल",
-      "stationNameMarathi": "पनवेल"
-    },
-    "price": {
-      "monthly": { "SECOND": 270, "FIRST": 880 },
-      "journey": { "SECOND": 20, "FIRST": 100 },
-      "returnT": { "SECOND": 40, "FIRST": 185 }
-    },
-    "via": "CLA",
-    "distance": "49 km",
-    "travelTime": 50
+{
+  id:8,
+  source: {
+    stationCode: "S",
+    stationNameHindi: "दिवा",
+    stationNameEnglish: "DIVA",
+    stationNameMarathi: "दिवा",
   },
-  {
-    "id": 7,
-    "source": {
-      "stationNameEnglish": "C SHIVAJI MAH T",
-      "stationNameHindi": "छ. शिवाजी महा. ट.",
-      "stationNameMarathi": "छ. शिवाजी महा ट"
-    },
-    "destination": {
-      "stationNameEnglish": "PANVEL",
-      "stationNameHindi": "पनवेल",
-      "stationNameMarathi": "पनवेल"
-    },
-    "price": {
-      "monthly": { "SECOND": 385, "FIRST": 770 },
-      "journey": { "SECOND": 25, "FIRST": 115 },
-      "returnT": { "SECOND": 45, "FIRST": 210 }
-    },
-    "via": "TNA-TUH-JNJ",
-    "distance": "68 km",
-    "travelTime": 50
+  destination: {
+    stationCode: "D",
+    stationNameHindi: "पनवेल",
+    stationNameEnglish: "PANVEL",
+    stationNameMarathi: "पनवेल",
   },
-  {
-    "id": 8,
-    "source": {
-      "stationNameEnglish": "DIVA",
-      "stationNameHindi": "दिवा",
-      "stationNameMarathi": "दिवा"
-    },
-    "destination": {
-      "stationNameEnglish": "PANVEL",
-      "stationNameHindi": "पनवेल",
-      "stationNameMarathi": "पनवेल"
-    },
-    "price": {
-      "monthly": { "SECOND": 100, "FIRST": 480 },
-      "journey": { "SECOND": 10, "FIRST": 85 },
-      "returnT": { "SECOND": 20, "FIRST": 110 }
-    },
-    "via": "TPND",
-    "distance": "17 km",
-    "travelTime": 40
+  price: { SECOND: 10 , FIRST: 85 },
+  via: "TPND",
+  distance: "17 km",
+  travelTime: 40,
+},
+{
+  id: 9,
+  source: {
+    stationCode: "S",
+    stationNameHindi: "नवाडे रोड",
+    stationNameEnglish: "NAVADE ROAD",
+    stationNameMarathi: "नावडे रोड",
   },
-  {
-    "id": 9,
-    "source": {
-      "stationNameEnglish": "NAVADE ROAD",
-      "stationNameHindi": "नवाडे रोड",
-      "stationNameMarathi": "नावडे रोड"
-    },
-    "destination": {
-      "stationNameEnglish": "C SHIVAJI MAH T",
-      "stationNameHindi": "छ. शिवाजी महा. ट.",
-      "stationNameMarathi": "छ. शिवाजी महा ट"
-    },
-    "price": {
-      "monthly": { "SECOND": 215, "FIRST": 655 },
-      "journey": { "SECOND": 20, "FIRST": 100 },
-      "returnT": { "SECOND": 40, "FIRST": 185 }
-    },
-    "via": "PNVL-SNCR-CLA-VDLR",
-    "distance": "43 km",
-    "travelTime": 90
+  destination: {
+    stationCode: "D",
+    stationNameHindi: "छ. शिवाजी महा. ट.",
+    stationNameEnglish: "C SHIVAJI MAH T",
+    stationNameMarathi: "छ. शिवाजी महा ट",
   },
-  {
-    "id": 10,
-    "source": {
-      "stationNameEnglish": "PANVEL",
-      "stationNameHindi": "पनवेल",
-      "stationNameMarathi": "पनवेल"
+  price: { SECOND: 20 , FIRST: 20 },
+  via: "PNVL-SNCR-CLA-VDLR",
+  distance: "43 km",
+  travelTime: 90,
+}, 
+    {
+    id: 10,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "पनवेल",
+      stationNameEnglish: "PANVEL",
+      stationNameMarathi: "पनवेल",
     },
-    "destination": {
-      "stationNameEnglish": "KOPER",
-      "stationNameHindi": "कोपर",
-      "stationNameMarathi": "कॉपर"
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "कोपर",
+      stationNameEnglish: "KOPER",
+      stationNameMarathi: "कॉपर",
     },
-    "price": {
-      "monthly": { "SECOND": 215, "FIRST": 430 },
-      "journey": { "SECOND": 20, "FIRST": 100 },
-      "returnT": { "SECOND": 40, "FIRST": 185 }
-    },
-    "via": "------",
-    "distance": "31 km",
-    "travelTime": 25
+    price: { SECOND: 215 , FIRST: 215 },
+    via: "------",
+    distance: "31 km",
+    travelTime: 25,
   },
-  {
-    "id": 11,
-    "source": {
-      "stationNameEnglish": "DIVA",
-      "stationNameHindi": "दिवा",
-      "stationNameMarathi": "दिवा"
+{
+    id: 11,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "दिवा",
+      stationNameEnglish: "DIVA",
+      stationNameMarathi: "दिवा",
     },
-    "destination": {
-      "stationNameEnglish": "KHOPOLI",
-      "stationNameHindi": "खोपोली",
-      "stationNameMarathi": "खोपोली"
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "खोपोली",
+      stationNameEnglish: "KHOPOLI",
+      stationNameMarathi: "खोपोली",
     },
-    "price": {
-      "monthly": { "SECOND": 385, "FIRST": 770 },
-      "journey": { "SECOND": 25, "FIRST": 115 },
-      "returnT": { "SECOND": 45, "FIRST": 210 }
-    },
-    "via": "KYN",
-    "distance": "72 km",
-    "travelTime": 45
+    price: { SECOND: 20 , FIRST: 115 },
+    via: "KYN",
+    distance: "72 km",
+    travelTime: 45,
   },
-  {
-    "id": 14,
-    "source": {
-      "stationNameEnglish": "DIVA",
-      "stationNameHindi": "दिवा",
-      "stationNameMarathi": "दिवा"
+{
+    id: 14,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "दिवा",
+      stationNameEnglish: "DIVA",
+      stationNameMarathi: "दिवा",
     },
-    "destination": {
-      "stationNameEnglish": "KHOPOLI",
-      "stationNameHindi": "खोपोली",
-      "stationNameMarathi": "खोपोली"
+    destination: {
+      stationCode: "D",
+            stationNameHindi: "खोपोली",
+      stationNameEnglish: "KHOPOLI",
+      stationNameMarathi: "खोपोली",
     },
-    "price": {
-      "monthly": { "SECOND": 185, "FIRST": 575 },
-      "journey": { "SECOND": 10, "FIRST": 60 },
-      "returnT": { "SECOND": 20, "FIRST": 165 }
-    },
-    "via": "KYN",
-    "distance": "22 km",
-    "travelTime": 30
+    price: { SECOND: 10 , FIRST: 60 },
+    via: "KYN",
+    distance: "22 km",
+    travelTime: 30,
   },
-  {
-    "id": 12,
-    "source": {
-      "stationNameEnglish": "ANDHERI",
-      "stationNameHindi": "अंधेरी",
-      "stationNameMarathi": "अंधेरी"
+{
+    id: 12,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "अंधेरी",
+      stationNameEnglish: "ANDHERI",
+      stationNameMarathi: "अंधेरी",
     },
-    "destination": {
-      "stationNameEnglish": "VASAI ROAD",
-      "stationNameHindi": "वसई रोड",
-      "stationNameMarathi": "वसई रोड"
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "वसई रोड",
+      stationNameEnglish: "VASAI ROAD",
+      stationNameMarathi: "वसई रोड",
     },
-    "price": {
-      "monthly": { "SECOND": 185, "FIRST": 575 },
-      "journey": { "SECOND": 10, "FIRST": 85 },
-      "returnT": { "SECOND": 20, "FIRST": 165 }
-    },
-    "via": "-----",
-    "distance": "30 km",
-    "travelTime": 60
+    price: { SECOND: 10 , FIRST: 85 },
+    via: "-----",
+    distance: "30 km",
+    travelTime: 60,
   },
-  {
-    "id": 13,
-    "source": {
-      "stationNameEnglish": "VASAI ROAD",
-      "stationNameHindi": "वसई रोड",
-      "stationNameMarathi": "वसई रोड"
+    {
+    id: 13,
+    source: {
+      stationCode: "S",
+      stationNameHindi: "वसई रोड",
+      stationNameEnglish: "VASAI ROAD",
+      stationNameMarathi: "वसई रोड",
     },
-    "destination": {
-      "stationNameEnglish": "PANVEL",
-      "stationNameHindi": "पनवेल",
-      "stationNameMarathi": "पनवेल"
+    destination: {
+      stationCode: "D",
+      stationNameHindi: "पनवेल",
+      stationNameEnglish: "PANVEL",
+      stationNameMarathi: "पनवेल",
     },
-    "price": {
-      "monthly": { "SECOND": 385, "FIRST": 770 },
-      "journey": { "SECOND": 25, "FIRST": 115 },
-      "returnT": { "SECOND": 45, "FIRST": 210 }
-    },
-    "via": "BSR",
-    "distance": "68 km",
-    "travelTime": 25
-  }
-]
+    price: { SECOND: 20 , FIRST: 105 },
+    via: "BSR",
+    distance: "68 km",
+    travelTime: 25,
+  },
+
+
+ 
+ 
+ 
+
+];
