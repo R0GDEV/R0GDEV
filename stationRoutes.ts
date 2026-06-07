@@ -65,19 +65,19 @@
   {
     id: 2,
     source: {
-      stationNameEnglish: "KHARGHAR",
+      stationNameEnglish: "PANVEL",
       stationNameHindi: "खारघर",
       stationNameMarathi: "खारघर",
     },
     destination: {
-      stationNameEnglish: "RABADA",
+      stationNameEnglish: "KOPAR",
       stationNameHindi: "राबाडा",
       stationNameMarathi: "राबाडा",
     },
     price: {
-      monthly: { SECOND: 150, FIRST: 450 },
-      journey: { SECOND: 10, FIRST: 65 },
-      returnT: { SECOND: 20, FIRST: 120 },
+      monthly: { SECOND: 215, FIRST: 755 },
+      journey: { SECOND: 15, FIRST: 85 },
+      returnT: { SECOND: 30, FIRST: 170 },
     },
     via: "JNJ-TUH",
     distance: "18 km",
