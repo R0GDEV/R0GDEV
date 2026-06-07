@@ -79,7 +79,7 @@
       journey: { SECOND: 15, FIRST: 85 },
       returnT: { SECOND: 30, FIRST: 170 },
     },
-    via: "JNJ-TUH",
+    via: "------",
     distance: "18 km",
     travelTime: 40,
   },
