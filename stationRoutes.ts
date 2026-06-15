@@ -80,7 +80,7 @@
       returnT: { SECOND: 30, FIRST: 170 },
     },
     via: "1RT>>------",
-    distance: "18 km",
+    distance: "31 km",
     travelTime: 40,
   },
   {
