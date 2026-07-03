@@ -44,12 +44,12 @@
   {
     id: 20,
     source: {
-      stationNameEnglish: "PANVEL",
+      stationNameEnglish: "Thane",
       stationNameHindi: "नवाडे रोड",
       stationNameMarathi: "नावडे रोड",
     },
     destination: {
-      stationNameEnglish: "Thane",
+      stationNameEnglish: "PANVEL",
       stationNameHindi: "पनवेल",
       stationNameMarathi: "पनवेल",
     },
@@ -58,7 +58,7 @@
       journey: { SECOND: 15, FIRST: 90 },
       returnT: { SECOND: 30, FIRST: 165 },
     },
-    via: "1RT>>JNJ-TUH",
+    via: "1RT>>TUH-JNJ",
     distance: "35 km",
     travelTime: 90,
   },
