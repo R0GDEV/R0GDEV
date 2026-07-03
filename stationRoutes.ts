@@ -170,12 +170,12 @@
   {
     id: 8,
     source: {
-      stationNameEnglish: "DIVA",
+      stationNameEnglish: "PANVEL",
       stationNameHindi: "दिवा",
       stationNameMarathi: "दिवा",
     },
     destination: {
-      stationNameEnglish: "PANVEL",
+      stationNameEnglish: "DIVA",
       stationNameHindi: "पनवेल",
       stationNameMarathi: "पनवेल",
     },
