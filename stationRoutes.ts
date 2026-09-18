@@ -86,7 +86,7 @@
   {
     id: 3,
     source: {
-      stationNameEnglish: "DIVA",
+      stationNameEnglish: "DOMBIVLI",
       stationNameHindi: "दिवा",
       stationNameMarathi: "दिवा",
     },
@@ -96,12 +96,12 @@
       stationNameMarathi: "ठाणे",
     },
     price: {
-      monthly: { SECOND: 100, FIRST: 300 },
+      monthly: { SECOND: 130, FIRST: 300 },
       journey: { SECOND: 5, FIRST: 25 },
       returnT: { SECOND: 10, FIRST: 50 },
     },
-    via: "------",
-    distance: "10 km",
+    via: "1RT>>DIVA",
+    distance: "16 km",
     travelTime: 25,
   },
   {
