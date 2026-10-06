@@ -268,8 +268,8 @@
       journey: { SECOND: 10, FIRST: 85 },
       returnT: { SECOND: 20, FIRST: 110 },
     },
-    via: "-----",
-    distance: "22 km",
+    via: "TPND",
+    distance: "26 km",
     travelTime: 30,
   },
   {
